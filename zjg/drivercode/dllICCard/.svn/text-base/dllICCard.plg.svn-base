@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dllICCard - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP9F6F.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/dllICCard.pdb" /machine:I386 /def:".\dllICCard.def" /out:"../../·¢²¼/dll/drvdll/iccarddll/dllICCard.dll" /implib:"Release/dllICCard.lib" 
+.\Release\dllICCard.obj
+.\Release\DriverICCard.obj
+.\Release\paraxml.obj
+.\Release\StdAfx.obj
+.\Release\Win32Port.obj
+.\Release\tinystr.obj
+.\Release\tinyxml.obj
+.\Release\tinyxmlerror.obj
+.\Release\tinyxmlparser.obj
+.\Release\dllICCard.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP9F6F.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library Release/dllICCard.lib and object Release/dllICCard.exp
+
+
+
+<h3>Results</h3>
+dllICCard.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
