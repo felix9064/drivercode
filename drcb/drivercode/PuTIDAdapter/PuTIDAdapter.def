@@ -1,0 +1,8 @@
+; PuTIDAdapter.def : Declares the module parameters for the DLL.
+
+LIBRARY      "PuTIDAdapter"
+DESCRIPTION  'PuTIDAdapter Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	GetIdentityCardCOM   @1

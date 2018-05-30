@@ -1,0 +1,8 @@
+; NanTKBAdapter.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NanTGMTAdapter"
+DESCRIPTION  'NanTGMTAdapter Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	GetSFKBCOM    @1

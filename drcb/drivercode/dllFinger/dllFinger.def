@@ -1,0 +1,8 @@
+; dllFinger.def : Declares the module parameters for the DLL.
+
+LIBRARY      "dllFinger"
+DESCRIPTION  'dllFinger Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	GetDriverInterface @1

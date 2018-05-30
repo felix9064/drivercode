@@ -1,0 +1,8 @@
+; dllMKeyBoard.def : Declares the module parameters for the DLL.
+
+LIBRARY      "dllMKeyBoard"
+DESCRIPTION  'dllMKeyBoard Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	GetDriverInterface @1

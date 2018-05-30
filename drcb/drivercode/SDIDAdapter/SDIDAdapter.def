@@ -1,0 +1,8 @@
+; SDIDAdapter.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SDIDAdapter"
+DESCRIPTION  'SDIDAdapter Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	GetIdentityCardCOM   @1

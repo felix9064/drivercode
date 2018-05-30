@@ -1,0 +1,8 @@
+; fpadapter.def : Declares the module parameters for the DLL.
+
+LIBRARY      "fpadapter"
+DESCRIPTION  'fpadapter Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	GetFpCOM  @1
