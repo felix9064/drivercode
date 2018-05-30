@@ -1,0 +1,8 @@
+; dllGMT.def : Declares the module parameters for the DLL.
+
+LIBRARY      "dllGMT"
+DESCRIPTION  'dllGMT Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	GetDriverInterface @1
